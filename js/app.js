@@ -821,9 +821,13 @@ divCol.classList.add('col-md-6','order-md-2','form-delivery-total');
 const tituloDelivery=document.createElement('h4');
 tituloDelivery.classList.add('mb-3','border-bottom','border-top');
 tituloDelivery.textContent='Delivery';
+const tituloSmall=document.createElement('small');
+tituloSmall.classList.add('text-muted');
+tituloSmall.textContent=' --Seleccione una opción--';
+
 divCol.appendChild(tituloDelivery);
 
-
+divCol.appendChild(tituloSmall);
 
 const divRow1=document.createElement('div');
 divRow1.classList.add('d-block','my-3','delivery-option');
