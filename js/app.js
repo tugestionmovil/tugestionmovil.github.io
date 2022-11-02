@@ -1273,7 +1273,7 @@ const  productosParaWsp =ordenes.map(articulo=>{
 
 
 console.log(`Datos de la orden : \n Cliente ${clienteOrden}, \nTelefono: ${telefonoOrden},\nDelivery Seleccionado ${tipoDelivery}, \n Monto Delivery ${deliverySeleccionado}, \n SubTotal ${subtotalOrden}, \n Monto Total Orden: ${totalOrden} \n`)
-    let win= window.open('https://api.whatsapp.com/send?phone=584127933936&text=Me%20interesan%20los%20siguientes%20productos: ' + ' ' + productosConFormatoAmigable +' Nombre Cliente: ' +clienteOrden+ ' Telefono Cliente: ' +telefonoOrden+' Tipo Delivery: '+tipoDelivery+' % '+' Monto Delivery: '+deliverySeleccionado+' Subotal Orden: '+subtotalOrden+' Monto Total Orden '+totalOrden,'_blank');
+    let win= window.open('https://api.whatsapp.com/send?phone=584145746771&text=Me%20interesan%20los%20siguientes%20productos: ' + ' ' + productosConFormatoAmigable +' Nombre Cliente: ' +clienteOrden+ ' Telefono Cliente: ' +telefonoOrden+' Tipo Delivery: '+tipoDelivery+' % '+' Monto Delivery: '+deliverySeleccionado+' Subotal Orden: '+subtotalOrden+' Monto Total Orden '+totalOrden,'_blank');
 
 
 
